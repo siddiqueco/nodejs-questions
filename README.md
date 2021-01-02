@@ -545,22 +545,7 @@ The `http` core module is used to create a web server in `Node.js`
 
 </details>
 
-###### 36: In which of the following areas, Node.js is not advised to be used?
-
-- A: Single Page Applications
-- B: JSON APIs based Applications
-- C: CPU intensive applications
-- D: Data Intensive Realtime Applications (DIRT)
-
-<details><summary><b>Answer</b></summary>
-
-#### Answer: C
-
-It is not advisable to use `Node.js` for CPU intensive applications.
-
-</details>
-
-###### 37: Which of the following code gets length of a buffer buf?
+###### 36: Which of the following code gets length of a buffer buf?
 
 - A: buf.length
 - B: buf.size
@@ -571,15 +556,15 @@ It is not advisable to use `Node.js` for CPU intensive applications.
 
 #### Answer: A
 
-buf.length returns size of a node buffer in bytes.
+`buf.length` returns size of a node buffer in bytes.
 
 </details>
 
-###### 38: Which function is used to include modules in Node Js.
+###### 37: Which function is used to include modules in Node Js.
 
-- A: include();
-- B: require();
-- C: attach();
+- A: include()
+- B: require()
+- C: attach()
 - D: all
 
 <details><summary><b>Answer</b></summary>
@@ -590,7 +575,7 @@ buf.length returns size of a node buffer in bytes.
 
 </details>
 
-###### 39: Which of the following is a GUI-based debugging tool for Node.js?
+###### 38: Which of the following is a GUI-based debugging tool for Node.js?
 
 - A: Core node debugger
 - B: Console
@@ -602,5 +587,35 @@ buf.length returns size of a node buffer in bytes.
 #### Answer: D
 
 Node Inspector is a debugger interface for `Node.js` applications that uses the Blink Developer Tools (formerly WebKit Web Inspector).
+
+</details>
+
+###### 39: Which command is used to silence all process warnings including deprecations for app.js?
+
+- A: node app.js --trace-warnings
+- B: node app.js --no-deprecation
+- C: node app.js --no-warnings
+- D: node app.js --trace-deprecation
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: C
+
+`node app.js --no-warnings` is used to silence all process warnings including deprecations for app.js.
+
+</details>
+
+###### 40: Which method is used to convert path segments into string using the platform-specific separator as a delimiter?
+
+- A: path.join()
+- B: path.parse()
+- C: path.normalize()
+- D: path.format()
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: A
+
+`path.join()` method joins all given path segments together using the platform-specific separator as a delimiter, then normalizes the resulting path.
 
 </details>
